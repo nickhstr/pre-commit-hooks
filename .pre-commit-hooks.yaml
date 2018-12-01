@@ -1,6 +1,6 @@
-- id: gometaliner
-  name: 'gometalinter'
+- id: gometalinter
+  name: gometalinter
   entry: run-gometalinter.sh
   description: Runs a group of go linters. Requires https://github.com/alecthomas/gometalinter.
-  language: 'script'
+  language: script
   files: '\.go'
