@@ -1,6 +1,6 @@
--	id: gometaliner
-	name: gometalinter
-	entry: gometalinter --config=./.gometalinter.json --disable=gotype --disable=vet --disable=vetshadow
-	description: Runs a group of go linters. Requires https://github.com/alecthomas/gometalinter.
-	language: system
-	files: '\.go'
+- id: gometaliner
+  name: gometalinter
+  entry: run-gometalinter.sh
+  description: Runs a group of go linters. Requires https://github.com/alecthomas/gometalinter.
+  language: script
+  files: '\.go'
