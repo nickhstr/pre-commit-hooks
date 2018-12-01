@@ -1,2 +1,2 @@
-#!/usr/bin/env bash
+#!/usr/bin/env sh
 exec gometalinter --config=./.gometalinter.json --disable=gotype --disable=vet --disable=vetshadow ./...
